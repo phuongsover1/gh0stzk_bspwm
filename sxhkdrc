@@ -68,6 +68,10 @@ alt + Print
 super + n
   maim -s | xclip -selection clipboard -t image/png
 
+# Color picker
+super + p 
+  xcolor
+
 # Reload sxhkd
 super + Escape
 	pkill -USR1 -x sxhkd; dunstify -u low -i ~/.config/bspwm/assets/reload.svg 'sxhkd' 'The configuration file has been reloaded successfully!'
