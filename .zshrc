@@ -12,6 +12,7 @@ export BROWSER='firefox'
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export JAVA_HOME="/usr/lib/jvm/java-17-openjdk"
 export PATH="$JAVA_HOME/bin:$PATH"
+#export NODE_OPTIONS='--openssl-legacy-provider'
 
 if [ -d "$HOME/.local/bin" ] ;
 then PATH="$HOME/.local/bin:$PATH"
