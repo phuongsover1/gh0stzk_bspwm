@@ -109,7 +109,7 @@
 ;; search
 (defwindow search
            :monitor 0
-           :geometry (geometry :x "30px"
+           :geometry (geometry :x "10px"
                                :y "15px"
                                :width "100px"
                                :height "45px"
@@ -125,9 +125,9 @@
 ;; apps
 (defwindow apps
            :monitor 0
-           :geometry (geometry :x "150px"
+           :geometry (geometry :x "120px"
                                :y "15px"
-                               :width "300px"
+                               :width "270px"
                                :height "45px"
                                :anchor "top left")
            :stacking "fg"
@@ -139,7 +139,7 @@
 ;; weather
 (defwindow weather
            :monitor 0
-           :geometry (geometry :x "950px"
+           :geometry (geometry :x "1180px"
                                :y "15px"
                                :width "180px"
                                :height "45px"
@@ -153,9 +153,9 @@
 ;; music
 (defwindow music
            :monitor 0
-           :geometry (geometry :x "470px"
+           :geometry (geometry :x "400px"
                                :y "15px"
-                               :width "460px"
+                               :width "450px"
                                :height "45px"
                                :anchor "top left")
            :stacking "fg"
@@ -167,9 +167,9 @@
 ;; system
 (defwindow system
            :monitor 0
-           :geometry (geometry :x "1150px"
+           :geometry (geometry :x "865px"
                                :y "15px"
-                               :width "420px"
+                               :width "300px"
                                :height "45px"
                                :anchor "top left")
            :stacking "fg"
