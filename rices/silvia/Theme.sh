@@ -17,6 +17,7 @@ set_bspwm_config() {
     bspc config left_padding 2
     bspc config right_padding 2
     bspc config window_gap 6
+    bspc config focus_follows_pointer false
 }
 
 # Reload terminal colors
